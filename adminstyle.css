@@ -1,0 +1,77 @@
+/* Navbar */
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+}
+
+/* Ana başlık */
+h3 {
+    color: #333; /* Başlık rengi */
+    font-size: 24px; /* Başlık font büyüklüğü */
+    margin-top: 20px; /* Başlık üst boşluk */
+}
+
+/* Arka plan rengi */
+.bg-light {
+    background-color: #f8f9fa !important; /* Arka plan rengi */
+}
+
+/* Butonlar */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+/* Tablo stilleri */
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    color: #333; /* Tablo metin rengi */
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody + tbody {
+    border-top: 2px solid #dee2e6;
+}
+
+.table .table {
+    background-color: #fff;
+}
+.footer {
+    background-color: #b7ffff !important;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,82 @@
+.collapse.navbar-collapse {
+    justify-content: space-between; /* Menü öğelerini sol ve sağa yay */
+}
+
+.nav-link {
+    padding: 0.5rem 1rem; /* Menü bağlantılarının iç boşluğunu ayarla */
+}
+
+.nav-item {
+    margin-right: 10px; /* Menü öğeleri arasındaki sağ boşluğu ayarla */
+}
+
+.d-flex{
+    color: aliceblue;
+    margin-right: 10px; 
+}
+
+.wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    background: #343a40;
+    color: white;
+    padding: 15px;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Küçük ekranlar için (mobil cihazlar) */
+@media (max-width: 600px) {
+    .content {
+        padding: 10px;
+    }
+
+    .sidebar {
+        display: none; /* Yan menüyü gizle */
+    }
+
+    .navbar {
+        text-align: center;
+    }
+
+    .table {
+        font-size: 12px; /* Tablo yazı boyutunu küçült */
+    }
+}
+
+/* Orta boy ekranlar için (tabletler) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .content {
+        padding: 15px;
+    }
+
+    .sidebar {
+        width: 200px;
+    }
+
+    .table {
+        font-size: 14px;
+    }
+}
+
+/* Büyük ekranlar için (masaüstü) */
+@media (min-width: 1025px) {
+    .content {
+        padding: 20px;
+    }
+
+    .sidebar {
+        width: 250px;
+    }
+
+    .table {
+        font-size: 16px;
+    }
+}
