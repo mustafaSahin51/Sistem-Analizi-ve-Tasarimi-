@@ -24,7 +24,7 @@ Bu web sitesinde satışa sunulan sıfır ve ikinci el araçları satın alabili
 İletişim metnini doldurarak sayfa hakkında istek şikayet ve önerilerinizi yazabilir ve kampanyalardan yararlanabilirsiniz.
 
                                 KLASÖRLER
-vendor klasörü mail işlemleri için composer dosyalarını vs içermektedir fakat Google Mail hataları sebebiyle mail gönderimi yapılmamaktadır.
+vendor klasörü mail işlemleri için composer dosyalarını vs içermektedir fakat Google Mail hataları sebebiyle mail gönderimi yapılmamaktadır. vendor klasörü phpmailer dosyalarını kapsar.
 
 uyelik klasöründe kullanıcının veritabanına üyelik işlemleri yapılmaktadır.
 
