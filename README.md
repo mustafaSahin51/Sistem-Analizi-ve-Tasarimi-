@@ -1,6 +1,6 @@
 # Sistem analizi dersi otomasyon proje dosyaları
 
-
+Bu depoda veri büyüklüğü açısından resim dosyalarının tamamı bulunmamaktadır. !
 
 Sistem analizi dersi oto galeri otomasyonu web projesi dosyaları. 
 
